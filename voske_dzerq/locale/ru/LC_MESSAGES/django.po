@@ -1,0 +1,570 @@
+# Russian translations
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+
+msgid "Golden Hands"
+msgstr "Золотые Руки"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Delivery"
+msgstr "Доставка"
+
+msgid "Subscribe to our newsletter"
+msgstr "Подпишитесь на нашу рассылку"
+
+msgid "Subscribe"
+msgstr "Подписаться"
+
+msgid "ABOUT US"
+msgstr "О НАС"
+
+msgid "CONTACT US"
+msgstr "СВЯЗАТЬСЯ С НАМИ"
+
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Welcome to"
+msgstr "Добро пожаловать в"
+
+msgid "Delicious and fresh food at affordable prices"
+msgstr "Вкусная и свежая еда по доступным ценам"
+
+msgid "View Menu"
+msgstr "Посмотреть меню"
+
+msgid "Order Now"
+msgstr "Заказать сейчас"
+
+msgid "Why Golden Hands?"
+msgstr "Почему Золотые Руки?"
+
+msgid "Fresh Ingredients"
+msgstr "Свежие продукты"
+
+msgid "We cook only with fresh and quality ingredients. We pay special attention to the quality and freshness of products."
+msgstr "Мы готовим только из свежих и качественных ингредиентов. Мы уделяем особое внимание качеству и свежести продуктов."
+
+msgid "Fast Delivery"
+msgstr "Быстрая доставка"
+
+msgid "Fast and quality delivery to all districts of the city. We guarantee fast delivery of your order."
+msgstr "Быстрая и качественная доставка во все районы города. Мы гарантируем быструю доставку вашего заказа."
+
+msgid "Affordable Prices"
+msgstr "Доступные цены"
+
+msgid "Best price-quality ratio. We offer delicious food at affordable prices."
+msgstr "Лучшее соотношение цены и качества. Мы предлагаем вкусную еду по доступным ценам."
+
+msgid "Professional Chefs"
+msgstr "Профессиональные повара"
+
+msgid "Our chefs have years of experience and prepare each dish with love and attention."
+msgstr "Наши повара имеют многолетний опыт и готовят каждое блюдо с любовью и вниманием."
+
+msgid "High Quality"
+msgstr "Высокое качество"
+
+msgid "We maintain high standards and guarantee excellent taste of every dish."
+msgstr "Мы поддерживаем высокие стандарты и гарантируем отличный вкус каждого блюда."
+
+msgid "24/7 Support"
+msgstr "Поддержка 24/7"
+
+msgid "Our team is always ready to help you and answer your questions. Always with you."
+msgstr "Наша команда всегда готова помочь вам и ответить на ваши вопросы. Всегда с вами."
+
+msgid "Ready to Order?"
+msgstr "Готовы заказать?"
+
+msgid "Choose your favorite dishes and we will deliver them to you quickly and safely"
+msgstr "Выберите свои любимые блюда, и мы доставим их вам быстро и безопасно"
+
+msgid "View Full Menu"
+msgstr "Посмотреть полное меню"
+
+msgid "Create Order"
+msgstr "Создать заказ"
+
+msgid "Fill in the order form"
+msgstr "Заполните форму заказа"
+
+msgid "Please correct the following errors:"
+msgstr "Пожалуйста, исправьте следующие ошибки:"
+
+msgid "Submit Order"
+msgstr "Отправить заказ"
+
+msgid "Recent Orders"
+msgstr "Последние заказы"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+msgid "Order:"
+msgstr "Заказ:"
+
+msgid "Total:"
+msgstr "Стоимость:"
+
+msgid "Processed"
+msgstr "Обработан"
+
+msgid "In Process"
+msgstr "В обработке"
+
+msgid "No orders yet. Be the first!"
+msgstr "Пока нет заказов. Будьте первым!"
+
+msgid "Your Name"
+msgstr "Ваше имя"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Order Details"
+msgstr "Детали заказа"
+
+msgid "Total Price"
+msgstr "Общая стоимость"
+
+msgid "Enter your name"
+msgstr "Введите ваше имя"
+
+msgid "Describe your order (e.g.: Classic shawarma x2, Cola x1)"
+msgstr "Опишите ваш заказ (например: Классическая шаурма x2, Кола x1)"
+
+msgid "Phone number must contain at least 10 digits"
+msgstr "Номер телефона должен содержать минимум 10 цифр"
+
+msgid "Price cannot be negative"
+msgstr "Цена не может быть отрицательной"
+
+msgid "Order successfully created! Thank you, %(name)s!"
+msgstr "Заказ успешно создан! Спасибо, %(name)s!"
+
+msgid "Our Menu"
+msgstr "Наше меню"
+
+msgid "All"
+msgstr "Все"
+
+msgid "AMD"
+msgstr "драм"
+
+msgid "Add to Cart"
+msgstr "В корзину"
+
+msgid "No items in this category yet"
+msgstr "В этой категории пока нет блюд"
+
+msgid "Your Order"
+msgstr "Ваш заказ"
+
+msgid "Order"
+msgstr "Заказать"
+
+msgid "Cart is empty"
+msgstr "Корзина пуста"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Place Order"
+msgstr "Оформить заказ"
+
+msgid "To place your order, please fill in your details:"
+msgstr "Для оформления заказа, пожалуйста, заполните ваши данные:"
+
+msgid "Your Order:"
+msgstr "Ваш заказ:"
+
+msgid "Example: Classic shawarma x2, Cola x1"
+msgstr "Например: Классическая шаурма x2, Кола x1"
+
+msgid "Specify dish names and quantities"
+msgstr "Укажите названия блюд и количество"
+
+msgid "Your Phone Number:"
+msgstr "Ваш номер телефона:"
+
+msgid "Delivery Address (if required):"
+msgstr "Адрес доставки (если требуется):"
+
+msgid "Street, house, apartment"
+msgstr "Улица, дом, квартира"
+
+msgid "Order Comments:"
+msgstr "Комментарии к заказу:"
+
+msgid "Additional wishes for the order..."
+msgstr "Дополнительные пожелания к заказу..."
+
+msgid "Order is being sent..."
+msgstr "Заказ отправляется..."
+
+msgid "Thank you! Your order has been sent successfully. We will contact you soon."
+msgstr "Спасибо! Ваш заказ успешно отправлен. Мы скоро свяжемся с вами."
+
+msgid "An error occurred while sending the order. Please try again."
+msgstr "Произошла ошибка при отправке заказа. Пожалуйста, попробуйте снова."
+
+msgid "About Us"
+msgstr "О нас"
+
+msgid "Our Story"
+msgstr "Наша история"
+
+msgid "How It All Started"
+msgstr "Как всё началось"
+
+msgid "Our Mission"
+msgstr "Наша миссия"
+
+msgid "Our Goal"
+msgstr "Наша цель"
+
+msgid "Our Values"
+msgstr "Наши ценности"
+
+msgid "Our Vision"
+msgstr "Наше видение"
+
+msgid "Traditional Recipes"
+msgstr "Традиционные рецепты"
+
+msgid "Love and Care"
+msgstr "Любовь и забота"
+
+msgid "Our Achievements"
+msgstr "Наши достижения"
+
+msgid "Years in Business"
+msgstr "Лет в бизнесе"
+
+msgid "Satisfied Customers"
+msgstr "Довольных клиентов"
+
+msgid "Dishes in Menu"
+msgstr "Блюд в меню"
+
+msgid "Our Team"
+msgstr "Наша команда"
+
+msgid "Name Surname"
+msgstr "Имя Фамилия"
+
+msgid "Position"
+msgstr "Должность"
+
+msgid "Let's Get to Know Each Other"
+msgstr "Давайте познакомимся"
+
+msgid "Visit us and taste our delicious dishes"
+msgstr "Посетите нас и попробуйте наши вкусные блюда"
+
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+msgid "Mon-Sun: 11:00 - 23:00"
+msgstr "Пн-Вс: 11:00 - 23:00"
+
+msgid "Email Address"
+msgstr "Электронная почта"
+
+msgid "We respond within 24 hours"
+msgstr "Отвечаем в течение 24 часов"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Working Hours"
+msgstr "Рабочие часы"
+
+msgid "Monday - Sunday"
+msgstr "Понедельник - Воскресенье"
+
+msgid "Send us a message"
+msgstr "Отправьте нам сообщение"
+
+msgid "Your Name:"
+msgstr "Ваше имя:"
+
+msgid "Your name"
+msgstr "Ваше имя"
+
+msgid "Phone Number:"
+msgstr "Номер телефона:"
+
+msgid "Email Address:"
+msgstr "Электронная почта:"
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "Select subject"
+msgstr "Выберите тему"
+
+msgid "Question"
+msgstr "Вопрос"
+
+msgid "Complaint"
+msgstr "Жалоба"
+
+msgid "Suggestion"
+msgstr "Предложение"
+
+msgid "Partnership"
+msgstr "Партнерство"
+
+msgid "Other"
+msgstr "Другое"
+
+msgid "Your Message:"
+msgstr "Ваше сообщение:"
+
+msgid "Write your message..."
+msgstr "Напишите ваше сообщение..."
+
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+msgid "Message is being sent..."
+msgstr "Сообщение отправляется..."
+
+msgid "Thank you! Your message has been sent successfully. We will contact you soon."
+msgstr "Спасибо! Ваше сообщение успешно отправлено. Мы скоро свяжемся с вами."
+
+msgid "An error occurred while sending the message. Please try again."
+msgstr "Произошла ошибка при отправке сообщения. Пожалуйста, попробуйте снова."
+
+msgid "Last updated:"
+msgstr "Последнее обновление:"
+
+msgid "General Provisions"
+msgstr "Общие положения"
+
+msgid "Golden Hands restaurant is committed to protecting the privacy of our customers' personal data. This policy describes how we collect, use, store and disclose your personal data when using our website and services."
+msgstr "Ресторан Золотые Руки обязуется защищать конфиденциальность личных данных наших клиентов. Эта политика описывает, как мы собираем, используем, храним и раскрываем ваши личные данные при использовании нашего веб-сайта и услуг."
+
+msgid "Data Collected"
+msgstr "Собираемые данные"
+
+msgid "We may collect the following information:"
+msgstr "Мы можем собирать следующую информацию:"
+
+msgid "Personal Information:"
+msgstr "Личная информация:"
+
+msgid "Phone number, email address"
+msgstr "Номер телефона, электронная почта"
+
+msgid "Delivery Data:"
+msgstr "Данные доставки:"
+
+msgid "Delivery address, delivery notes"
+msgstr "Адрес доставки, примечания к доставке"
+
+msgid "Order Information:"
+msgstr "Информация о заказе:"
+
+msgid "Ordered products, quantity, price"
+msgstr "Заказанные продукты, количество, цена"
+
+msgid "Technical Data:"
+msgstr "Технические данные:"
+
+msgid "IP address, browser type, usage data"
+msgstr "IP-адрес, тип браузера, данные об использовании"
+
+msgid "Data Usage"
+msgstr "Использование данных"
+
+msgid "We use the collected data for the following purposes:"
+msgstr "Мы используем собранные данные для следующих целей:"
+
+msgid "Order processing and delivery"
+msgstr "Обработка и доставка заказов"
+
+msgid "Customer communication"
+msgstr "Общение с клиентами"
+
+msgid "Service improvement"
+msgstr "Улучшение сервиса"
+
+msgid "Legal compliance"
+msgstr "Соблюдение законодательства"
+
+msgid "Marketing materials (only with your consent)"
+msgstr "Маркетинговые материалы (только с вашего согласия)"
+
+msgid "Data Protection"
+msgstr "Защита данных"
+
+msgid "We apply various levels of security measures to protect your personal data from unauthorized access, use or disclosure. However, it is understood that data transmission over the Internet is not 100% secure."
+msgstr "Мы применяем различные уровни мер безопасности для защиты ваших личных данных от несанкционированного доступа, использования или раскрытия. Однако понятно, что передача данных через Интернет не является 100% безопасной."
+
+msgid "Data Sharing"
+msgstr "Обмен данными"
+
+msgid "We do not share your personal data with third parties except when necessary to provide services (e.g., delivery services) or as required by law."
+msgstr "Мы не передаем ваши личные данные третьим лицам, за исключением случаев, когда это необходимо для предоставления услуг (например, службы доставки) или требуется по закону."
+
+msgid "Customer Rights"
+msgstr "Права клиента"
+
+msgid "You have the following rights:"
+msgstr "Вы имеете следующие права:"
+
+msgid "Know what data we collect about you"
+msgstr "Знать, какие данные мы собираем о вас"
+
+msgid "Request correction or deletion of your personal data"
+msgstr "Запросить исправление или удаление ваших личных данных"
+
+msgid "Refuse collection of certain data"
+msgstr "Отказаться от сбора определенных данных"
+
+msgid "Request export of your data"
+msgstr "Запросить экспорт ваших данных"
+
+msgid "Refuse to receive marketing materials"
+msgstr "Отказаться от получения маркетинговых материалов"
+
+msgid "Our website uses cookies to improve your experience and increase service efficiency. You can configure your browser to reject cookies, but this may affect some website functions."
+msgstr "Наш веб-сайт использует cookies для улучшения вашего опыта и повышения эффективности сервиса. Вы можете настроить браузер для отклонения cookies, но это может повлиять на некоторые функции веб-сайта."
+
+msgid "Policy Changes"
+msgstr "Изменения в политике"
+
+msgid "We reserve the right to change this policy at any time. We recommend reviewing this page periodically to learn about any changes. Changes take effect from the moment of publication."
+msgstr "Мы оставляем за собой право изменять эту политику в любое время. Рекомендуем периодически просматривать эту страницу, чтобы узнать о любых изменениях. Изменения вступают в силу с момента публикации."
+
+msgid "If you have questions or concerns about this policy, or wish to exercise your rights, please contact us."
+msgstr "Если у вас есть вопросы или опасения по поводу этой политики, или вы хотите воспользоваться своими правами, пожалуйста, свяжитесь с нами."
+
+msgid "Email:"
+msgstr "Электронная почта:"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+msgid "Back to Home"
+msgstr "Вернуться на главную"
+
+msgid "Please enter email address"
+msgstr "Пожалуйста, введите адрес электронной почты"
+
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите действительный адрес электронной почты"
+
+msgid "Thank you for subscribing!"
+msgstr "Спасибо за подписку!"
+
+msgid "Shawarma"
+msgstr "Шаурма"
+
+msgid "Grilled"
+msgstr "На мангале"
+
+msgid "Lahmajo"
+msgstr "Лахмаджо"
+
+msgid "Falafel"
+msgstr "Фалафель"
+
+msgid "Soups"
+msgstr "Супы"
+
+msgid "Drinks"
+msgstr "Напитки"
+
+msgid "Snacks"
+msgstr "Закуски"
+
+msgid "Name (Armenian)"
+msgstr "Название (армянский)"
+
+msgid "Name (Russian)"
+msgstr "Название (русский)"
+
+msgid "Name (English)"
+msgstr "Название (английский)"
+
+msgid "Description (Armenian)"
+msgstr "Описание (армянский)"
+
+msgid "Description (Russian)"
+msgstr "Описание (русский)"
+
+msgid "Description (English)"
+msgstr "Описание (английский)"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Available"
+msgstr "Доступно"
+
+msgid "Menu Item"
+msgstr "Пункт меню"
+
+msgid "Menu Items"
+msgstr "Пункты меню"
+
+msgid "Customer Name"
+msgstr "Имя клиента"
+
+msgid "Created At"
+msgstr "Дата создания"
+
+msgid "Processed"
+msgstr "Обработан"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Orders"
+msgstr "Заказы"
+
+msgid "Order from %(name)s - %(date)s"
+msgstr "Заказ от %(name)s - %(date)s"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "TikTok"
+msgstr "TikTok"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Enter your name"
+msgstr "Введите ваше имя"
+

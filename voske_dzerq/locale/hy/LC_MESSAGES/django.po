@@ -1,0 +1,570 @@
+# Armenian translations
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hy\n"
+
+msgid "Golden Hands"
+msgstr "Ոսկե Ձեռքեր"
+
+msgid "Home"
+msgstr "Գլխավոր"
+
+msgid "Menu"
+msgstr "Մենյու"
+
+msgid "Delivery"
+msgstr "Առաքում"
+
+msgid "Subscribe to our newsletter"
+msgstr "Միացեք մեր փոստին"
+
+msgid "Subscribe"
+msgstr "Բաժանորդագրվել"
+
+msgid "ABOUT US"
+msgstr "ՄԵՐ ՄԱՍԻՆ"
+
+msgid "CONTACT US"
+msgstr "ԿԱՊ ՄԵԶ ՀԵՏ"
+
+msgid "Privacy Policy"
+msgstr "Գաղտնիության քաղաքականություն"
+
+msgid "Welcome to"
+msgstr "Բարի գալուստ"
+
+msgid "Delicious and fresh food at affordable prices"
+msgstr "Համեղ և թարմ ուտելիք մատչելի գներով"
+
+msgid "View Menu"
+msgstr "Տեսնել մենյուն"
+
+msgid "Order Now"
+msgstr "Պատվիրել հիմա"
+
+msgid "Why Golden Hands?"
+msgstr "Ինչու՞ Ոսկե Ձեռքեր"
+
+msgid "Fresh Ingredients"
+msgstr "Թարմ մթերք"
+
+msgid "We cook only with fresh and quality ingredients. We pay special attention to the quality and freshness of products."
+msgstr "Պատրաստում ենք միայն թարմ և որակյալ բաղադրիչներից։ Մենք հատուկ ուշադրություն ենք դարձնում մթերքի որակին և թարմությանը։"
+
+msgid "Fast Delivery"
+msgstr "Արագ առաքում"
+
+msgid "Fast and quality delivery to all districts of the city. We guarantee fast delivery of your order."
+msgstr "Արագ և որակյալ առաքում քաղաքի բոլոր թաղամասերում։ Մենք երաշխավորում ենք ձեր պատվերի արագ առաքումը։"
+
+msgid "Affordable Prices"
+msgstr "Մատչելի գներ"
+
+msgid "Best price-quality ratio. We offer delicious food at affordable prices."
+msgstr "Լավագույն հարաբերակցություն գնի և որակի միջև։ Մենք առաջարկում ենք համեղ ուտելիք մատչելի գներով։"
+
+msgid "Professional Chefs"
+msgstr "Պրոֆեսիոնալ խոհարարներ"
+
+msgid "Our chefs have years of experience and prepare each dish with love and attention."
+msgstr "Մեր խոհարարները տարիների փորձ ունեն և պատրաստում են յուրաքանչյուր ուտեստ սիրով և ուշադրությամբ։"
+
+msgid "High Quality"
+msgstr "Բարձր որակ"
+
+msgid "We maintain high standards and guarantee excellent taste of every dish."
+msgstr "Մենք պահպանում ենք բարձր ստանդարտներ և երաշխավորում ենք յուրաքանչյուր ուտեստի հիանալի համը։"
+
+msgid "24/7 Support"
+msgstr "24/7 աջակցություն"
+
+msgid "Our team is always ready to help you and answer your questions. Always with you."
+msgstr "Մեր թիմը միշտ պատրաստ է օգնել ձեզ և պատասխանել ձեր հարցերին։ Միշտ ձեզ հետ։"
+
+msgid "Ready to Order?"
+msgstr "Պատրաստ եք պատվիրել?"
+
+msgid "Choose your favorite dishes and we will deliver them to you quickly and safely"
+msgstr "Ընտրեք ձեր սիրելի ուտեստները և մենք կառաքենք դրանք ձեզ արագ և անվտանգ"
+
+msgid "View Full Menu"
+msgstr "Դիտել ամբողջ մենյուն"
+
+msgid "Create Order"
+msgstr "Ստեղծել պատվեր"
+
+msgid "Fill in the order form"
+msgstr "Լրացրեք պատվերի ձևը"
+
+msgid "Please correct the following errors:"
+msgstr "Խնդրում ենք ուղղել հետևյալ սխալները:"
+
+msgid "Submit Order"
+msgstr "Ուղարկել պատվերը"
+
+msgid "Recent Orders"
+msgstr "Վերջին պատվերները"
+
+msgid "Phone:"
+msgstr "Հեռախոս:"
+
+msgid "Order:"
+msgstr "Պատվեր:"
+
+msgid "Total:"
+msgstr "Ընդամենը:"
+
+msgid "Processed"
+msgstr "Մշակված"
+
+msgid "In Process"
+msgstr "Մշակման մեջ"
+
+msgid "No orders yet. Be the first!"
+msgstr "Դեռ պատվերներ չկան: Դարձեք առաջինը!"
+
+msgid "Your Name"
+msgstr "Ձեր անունը"
+
+msgid "Phone"
+msgstr "Հեռախոս"
+
+msgid "Order Details"
+msgstr "Պատվերի մանրամասներ"
+
+msgid "Total Price"
+msgstr "Ընդհանուր գին"
+
+msgid "Enter your name"
+msgstr "Մուտքագրեք ձեր անունը"
+
+msgid "Describe your order (e.g.: Classic shawarma x2, Cola x1)"
+msgstr "Նկարագրեք ձեր պատվերը (օրինակ: Դասական շաուրմա x2, Կոլա x1)"
+
+msgid "Phone number must contain at least 10 digits"
+msgstr "Հեռախոսահամարը պետք է պարունակի առնվազն 10 թվանշան"
+
+msgid "Price cannot be negative"
+msgstr "Գինը չի կարող բացասական լինել"
+
+msgid "Order successfully created! Thank you, %(name)s!"
+msgstr "Պատվերը հաջողությամբ ստեղծվեց! Շնորհակալություն, %(name)s!"
+
+msgid "Our Menu"
+msgstr "Մեր մենյուն"
+
+msgid "All"
+msgstr "Բոլորը"
+
+msgid "AMD"
+msgstr "֏"
+
+msgid "Add to Cart"
+msgstr "Զամբյուղ"
+
+msgid "No items in this category yet"
+msgstr "Այս կատեգորիայում դեռ ուտեստներ չկան"
+
+msgid "Your Order"
+msgstr "Ձեր պատվերը"
+
+msgid "Order"
+msgstr "Պատվիրել"
+
+msgid "Cart is empty"
+msgstr "Զամբյուղը դատարկ է"
+
+msgid "Remove"
+msgstr "Հեռացնել"
+
+msgid "Contact"
+msgstr "Կապ"
+
+msgid "Place Order"
+msgstr "Պատվիրել"
+
+msgid "To place your order, please fill in your details:"
+msgstr "Պատվերը ձևակերպելու համար, խնդրում ենք լրացնել ձեր տվյալները:"
+
+msgid "Your Order:"
+msgstr "Ձեր պատվերը:"
+
+msgid "Example: Classic shawarma x2, Cola x1"
+msgstr "Օրինակ: Դասական շաուրմա x2, Կոլա x1"
+
+msgid "Specify dish names and quantities"
+msgstr "Նշեք ուտեստների անվանումները և քանակը"
+
+msgid "Your Phone Number:"
+msgstr "Ձեր հեռախոսահամարը:"
+
+msgid "Delivery Address (if required):"
+msgstr "Առաքման հասցե (եթե պահանջվում է):"
+
+msgid "Street, house, apartment"
+msgstr "Փողոց, տուն, բնակարան"
+
+msgid "Order Comments:"
+msgstr "Մեկնաբանություններ պատվերին:"
+
+msgid "Additional wishes for the order..."
+msgstr "Լրացուցիչ ցանկություններ պատվերին..."
+
+msgid "Order is being sent..."
+msgstr "Պատվերը ուղարկվում է..."
+
+msgid "Thank you! Your order has been sent successfully. We will contact you soon."
+msgstr "Շնորհակալություն! Ձեր պատվերը հաջողությամբ ուղարկվեց: Մենք շուտով կկապվենք ձեզ հետ:"
+
+msgid "An error occurred while sending the order. Please try again."
+msgstr "Պատվերն ուղարկելիս սխալ տեղի ունեցավ: Խնդրում ենք նորից փորձել:"
+
+msgid "About Us"
+msgstr "Մեր մասին"
+
+msgid "Our Story"
+msgstr "Մեր պատմությունը"
+
+msgid "How It All Started"
+msgstr "Ինչպես է սկսվել ամեն ինչ"
+
+msgid "Our Mission"
+msgstr "Մեր առաքելությունը"
+
+msgid "Our Goal"
+msgstr "Մեր նպատակը"
+
+msgid "Our Values"
+msgstr "Մեր արժեքները"
+
+msgid "Our Vision"
+msgstr "Մեր տեսլականը"
+
+msgid "Traditional Recipes"
+msgstr "Ավանդական բաղադրատոմսեր"
+
+msgid "Love and Care"
+msgstr "Սեր ու հոգատարություն"
+
+msgid "Our Achievements"
+msgstr "Մեր հաջողությունները"
+
+msgid "Years in Business"
+msgstr "Գոյություն ունենալու տարիներ"
+
+msgid "Satisfied Customers"
+msgstr "Գոհ հաճախորդներ"
+
+msgid "Dishes in Menu"
+msgstr "Ուտեստներ մենյուում"
+
+msgid "Our Team"
+msgstr "Մեր թիմը"
+
+msgid "Name Surname"
+msgstr "Անուն Ազգանուն"
+
+msgid "Position"
+msgstr "Պաշտոն"
+
+msgid "Let's Get to Know Each Other"
+msgstr "Եկեք ճանաչենք միմյանց"
+
+msgid "Visit us and taste our delicious dishes"
+msgstr "Այցելեք մեզ և համտեսեք մեր համեղ ուտեստները"
+
+msgid "Phone Number"
+msgstr "Հեռախոսահամար"
+
+msgid "Mon-Sun: 11:00 - 23:00"
+msgstr "Երկ-Կիր: 11:00 - 23:00"
+
+msgid "Email Address"
+msgstr "Էլեկտրոնային հասցե"
+
+msgid "We respond within 24 hours"
+msgstr "Պատասխանում ենք 24 ժամվա ընթացքում"
+
+msgid "Address"
+msgstr "Հասցե"
+
+msgid "Working Hours"
+msgstr "Աշխատանքային ժամեր"
+
+msgid "Monday - Sunday"
+msgstr "Երկուշաբթի - Կիրակի"
+
+msgid "Send us a message"
+msgstr "Ուղարկեք մեզ հաղորդագրություն"
+
+msgid "Your Name:"
+msgstr "Ձեր անունը:"
+
+msgid "Your name"
+msgstr "Ձեր անունը"
+
+msgid "Phone Number:"
+msgstr "Հեռախոսահամար:"
+
+msgid "Email Address:"
+msgstr "Էլեկտրոնային հասցե:"
+
+msgid "Subject:"
+msgstr "Թեմա:"
+
+msgid "Select subject"
+msgstr "Ընտրեք թեմա"
+
+msgid "Question"
+msgstr "Հարց"
+
+msgid "Complaint"
+msgstr "Դժգոհություն"
+
+msgid "Suggestion"
+msgstr "Առաջարկություն"
+
+msgid "Partnership"
+msgstr "Գործընկերություն"
+
+msgid "Other"
+msgstr "Այլ"
+
+msgid "Your Message:"
+msgstr "Ձեր հաղորդագրությունը:"
+
+msgid "Write your message..."
+msgstr "Գրեք ձեր հաղորդագրությունը..."
+
+msgid "Send Message"
+msgstr "Ուղարկել հաղորդագրությունը"
+
+msgid "Message is being sent..."
+msgstr "Հաղորդագրությունը ուղարկվում է..."
+
+msgid "Thank you! Your message has been sent successfully. We will contact you soon."
+msgstr "Շնորհակալություն! Ձեր հաղորդագրությունը հաջողությամբ ուղարկվեց: Մենք շուտով կկապվենք ձեզ հետ:"
+
+msgid "An error occurred while sending the message. Please try again."
+msgstr "Հաղորդագրությունը ուղարկելիս սխալ տեղի ունեցավ: Խնդրում ենք նորից փորձել:"
+
+msgid "Last updated:"
+msgstr "Վերջին թարմացում:"
+
+msgid "General Provisions"
+msgstr "Ընդհանուր դրույթներ"
+
+msgid "Golden Hands restaurant is committed to protecting the privacy of our customers' personal data. This policy describes how we collect, use, store and disclose your personal data when using our website and services."
+msgstr "Ոսկե Ձեռքեր ռեստորանը պարտավորվում է պաշտպանել իր հաճախորդների անձնական տվյալների գաղտնիությունը։ Այս քաղաքականությունը նկարագրում է, թե ինչպես ենք մենք հավաքում, օգտագործում, պահպանում և բացահայտում ձեր անձնական տվյալները՝ օգտագործելով մեր կայքը և ծառայությունները։"
+
+msgid "Data Collected"
+msgstr "Հավաքվող տվյալներ"
+
+msgid "We may collect the following information:"
+msgstr "Մենք կարող ենք հավաքել հետևյալ տեղեկատվությունը:"
+
+msgid "Personal Information:"
+msgstr "Անձնական տեղեկատվություն:"
+
+msgid "Phone number, email address"
+msgstr "Հեռախոսահամար, էլեկտրոնային հասցե"
+
+msgid "Delivery Data:"
+msgstr "Առաքման տվյալներ:"
+
+msgid "Delivery address, delivery notes"
+msgstr "Առաքման հասցե, նշումներ առաքման վերաբերյալ"
+
+msgid "Order Information:"
+msgstr "Պատվերների տեղեկատվություն:"
+
+msgid "Ordered products, quantity, price"
+msgstr "Պատվիրված արտադրանք, քանակ, գին"
+
+msgid "Technical Data:"
+msgstr "Տեխնիկական տվյալներ:"
+
+msgid "IP address, browser type, usage data"
+msgstr "IP հասցե, բրաուզերի տեսակ, օգտագործման տվյալներ"
+
+msgid "Data Usage"
+msgstr "Տվյալների օգտագործում"
+
+msgid "We use the collected data for the following purposes:"
+msgstr "Մենք օգտագործում ենք հավաքված տվյալները հետևյալ նպատակներով:"
+
+msgid "Order processing and delivery"
+msgstr "Պատվերների մշակում և առաքում"
+
+msgid "Customer communication"
+msgstr "Հաճախորդների հետ կապ հաստատում"
+
+msgid "Service improvement"
+msgstr "Ծառայությունների բարելավում"
+
+msgid "Legal compliance"
+msgstr "Օրինական պահանջների կատարում"
+
+msgid "Marketing materials (only with your consent)"
+msgstr "Մարքեթինգային նյութերի ուղարկում (միայն ձեր համաձայնությամբ)"
+
+msgid "Data Protection"
+msgstr "Տվյալների պաշտպանություն"
+
+msgid "We apply various levels of security measures to protect your personal data from unauthorized access, use or disclosure. However, it is understood that data transmission over the Internet is not 100% secure."
+msgstr "Մենք կիրառում ենք անվտանգության տարբեր մակարդակների միջոցառումներ՝ ձեր անձնական տվյալները պաշտպանելու համար չարտոնված մուտքից, օգտագործումից կամ բացահայտումից։ Այնուամենայնիվ, հասկանալի է, որ ինտերնետում տվյալների փոխանցումը 100% անվտանգ չէ։"
+
+msgid "Data Sharing"
+msgstr "Տվյալների բաժանում"
+
+msgid "We do not share your personal data with third parties except when necessary to provide services (e.g., delivery services) or as required by law."
+msgstr "Մենք ձեր անձնական տվյալները չենք փոխանցում երրորդ անձանց՝ բացառությամբ այն դեպքերի, երբ դա անհրաժեշտ է ծառայություններ մատուցելու համար (օրինակ՝ առաքման ծառայություններ) կամ օրենքով նախատեսված դեպքերում:"
+
+msgid "Customer Rights"
+msgstr "Հաճախորդի իրավունքներ"
+
+msgid "You have the following rights:"
+msgstr "Դուք ունեք հետևյալ իրավունքները:"
+
+msgid "Know what data we collect about you"
+msgstr "Իմանալ, թե ինչ տվյալներ ենք մենք հավաքում ձեր մասին"
+
+msgid "Request correction or deletion of your personal data"
+msgstr "Պահանջել ձեր անձնական տվյալների ուղղում կամ ջնջում"
+
+msgid "Refuse collection of certain data"
+msgstr "Մերժել որոշակի տվյալների հավաքումը"
+
+msgid "Request export of your data"
+msgstr "Պահանջել ձեր տվյալների արտահանում"
+
+msgid "Refuse to receive marketing materials"
+msgstr "Մերժել մարքեթինգային նյութերի ստացումը"
+
+msgid "Our website uses cookies to improve your experience and increase service efficiency. You can configure your browser to reject cookies, but this may affect some website functions."
+msgstr "Մեր կայքը օգտագործում է cookies՝ ձեր փորձառությունը բարելավելու և ծառայությունների արդյունավետությունը մեծացնելու համար։ Դուք կարող եք կարգավորել ձեր բրաուզերը՝ cookies-ը մերժելու համար, սակայն դա կարող է ազդել կայքի որոշ գործառույթների վրա:"
+
+msgid "Policy Changes"
+msgstr "Քաղաքականության փոփոխություններ"
+
+msgid "We reserve the right to change this policy at any time. We recommend reviewing this page periodically to learn about any changes. Changes take effect from the moment of publication."
+msgstr "Մենք պահպանում ենք իրավունքը փոփոխել այս քաղաքականությունը ցանկացած ժամանակ։ Խորհուրդ ենք տալիս պարբերաբար ակնարկել այս էջը՝ ցանկացած փոփոխությունների մասին տեղեկանալու համար։ Փոփոխությունները ուժի մեջ են մտնում հրապարակման պահից:"
+
+msgid "If you have questions or concerns about this policy, or wish to exercise your rights, please contact us."
+msgstr "Եթե ունեք հարցեր կամ մտահոգություններ այս քաղաքականության վերաբերյալ, կամ ցանկանում եք իրականացնել ձեր իրավունքները, խնդրում ենք կապ հաստատել մեզ հետ."
+
+msgid "Email:"
+msgstr "Էլեկտրոնային հասցե:"
+
+msgid "Phone:"
+msgstr "Հեռախոսահամար:"
+
+msgid "Back to Home"
+msgstr "Վերադառնալ գլխավոր էջ"
+
+msgid "Please enter email address"
+msgstr "Խնդրում ենք մուտքագրել էլեկտրոնային հասցե"
+
+msgid "Please enter a valid email address"
+msgstr "Խնդրում ենք մուտքագրել վավեր էլեկտրոնային հասցե"
+
+msgid "Thank you for subscribing!"
+msgstr "Շնորհակալություն բաժանորդագրման համար!"
+
+msgid "Shawarma"
+msgstr "Շաուրմա"
+
+msgid "Grilled"
+msgstr "Մանգալի վրա"
+
+msgid "Lahmajo"
+msgstr "Լահմաջո"
+
+msgid "Falafel"
+msgstr "Ֆալաֆել"
+
+msgid "Soups"
+msgstr "Ապուրներ"
+
+msgid "Drinks"
+msgstr "Զովացուցիչ ըմպելիքներ"
+
+msgid "Snacks"
+msgstr "Խորտիկներ"
+
+msgid "Name (Armenian)"
+msgstr "Անվանում (հայերեն)"
+
+msgid "Name (Russian)"
+msgstr "Անվանում (ռուսերեն)"
+
+msgid "Name (English)"
+msgstr "Անվանում (անգլերեն)"
+
+msgid "Description (Armenian)"
+msgstr "Նկարագրություն (հայերեն)"
+
+msgid "Description (Russian)"
+msgstr "Նկարագրություն (ռուսերեն)"
+
+msgid "Description (English)"
+msgstr "Նկարագրություն (անգլերեն)"
+
+msgid "Name"
+msgstr "Անվանում"
+
+msgid "Description"
+msgstr "Նկարագրություն"
+
+msgid "Price"
+msgstr "Գին"
+
+msgid "Category"
+msgstr "Կատեգորիա"
+
+msgid "Image"
+msgstr "Պատկեր"
+
+msgid "Available"
+msgstr "Մատչելի է"
+
+msgid "Menu Item"
+msgstr "Մենյուի կետ"
+
+msgid "Menu Items"
+msgstr "Մենյուի կետեր"
+
+msgid "Customer Name"
+msgstr "Հաճախորդի անուն"
+
+msgid "Created At"
+msgstr "Ստեղծման ամսաթիվ"
+
+msgid "Processed"
+msgstr "Մշակված է"
+
+msgid "User"
+msgstr "Օգտատեր"
+
+msgid "Order"
+msgstr "Պատվեր"
+
+msgid "Orders"
+msgstr "Պատվերներ"
+
+msgid "Order from %(name)s - %(date)s"
+msgstr "Պատվեր %(name)s-ից - %(date)s"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "TikTok"
+msgstr "TikTok"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Enter your name"
+msgstr "Մուտքագրեք ձեր անունը"
+

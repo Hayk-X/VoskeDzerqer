@@ -1,0 +1,20 @@
+# Python bytecode
+pycache/
+*.pyc
+
+# Environments
+venv/
+env/
+.env
+
+# Django specific
+staticfiles/
+# Note: We are NOT ignoring db.sqlite3 because you want to push it
+
+# User-uploaded media
+# If you want to push your avatars, comment the line below
+media/
+
+# OS specific
+.DS_Store
+Thumbs.db

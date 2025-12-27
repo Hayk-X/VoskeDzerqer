@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Privacy Policy" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="privacy-policy-page">
+    <div class="container">
+        <div class="privacy-content">
+            <h1 class="page-title">{% trans "Privacy Policy" %}</h1>
+            <p class="last-updated">{% trans "Last updated:" %} 2025</p>
+
+            <section class="privacy-section">
+                <h2>1. {% trans "General Provisions" %}</h2>
+                <p>
+                    {% trans "Golden Hands restaurant is committed to protecting the privacy of our customers' personal data. This policy describes how we collect, use, store and disclose your personal data when using our website and services." %}
+                </p>
+            </section>
+
+            <section class="privacy-section">
+                <h2>2. {% trans "Data Collected" %}</h2>
+                <p>{% trans "We may collect the following information:" %}</p>
+                <ul>
+                    <li><strong>{% trans "Personal Information:" %}</strong> {% trans "Phone number, email address" %}</li>
+                    <li><strong>{% trans "Delivery Data:" %}</strong> {% trans "Delivery address, delivery notes" %}</li>
+                    <li><strong>{% trans "Order Information:" %}</strong> {% trans "Ordered products, quantity, price" %}</li>
+                    <li><strong>{% trans "Technical Data:" %}</strong> {% trans "IP address, browser type, usage data" %}</li>
+                </ul>
+            </section>
+
+            <section class="privacy-section">
+                <h2>3. {% trans "Data Usage" %}</h2>
+                <p>{% trans "We use the collected data for the following purposes:" %}</p>
+                <ul>
+                    <li>{% trans "Order processing and delivery" %}</li>
+                    <li>{% trans "Customer communication" %}</li>
+                    <li>{% trans "Service improvement" %}</li>
+                    <li>{% trans "Legal compliance" %}</li>
+                    <li>{% trans "Marketing materials (only with your consent)" %}</li>
+                </ul>
+            </section>
+
+            <section class="privacy-section">
+                <h2>4. {% trans "Data Protection" %}</h2>
+                <p>
+                    {% trans "We apply various levels of security measures to protect your personal data from unauthorized access, use or disclosure. However, it is understood that data transmission over the Internet is not 100% secure." %}
+                </p>
+            </section>
+
+            <section class="privacy-section">
+                <h2>5. {% trans "Data Sharing" %}</h2>
+                <p>
+                    {% trans "We do not share your personal data with third parties except when necessary to provide services (e.g., delivery services) or as required by law." %}
+                </p>
+            </section>
+
+            <section class="privacy-section">
+                <h2>6. {% trans "Customer Rights" %}</h2>
+                <p>{% trans "You have the following rights:" %}</p>
+                <ul>
+                    <li>{% trans "Know what data we collect about you" %}</li>
+                    <li>{% trans "Request correction or deletion of your personal data" %}</li>
+                    <li>{% trans "Refuse collection of certain data" %}</li>
+                    <li>{% trans "Request export of your data" %}</li>
+                    <li>{% trans "Refuse to receive marketing materials" %}</li>
+                </ul>
+            </section>
+
+            <section class="privacy-section">
+                <h2>7. Cookies</h2>
+                <p>
+                    {% trans "Our website uses cookies to improve your experience and increase service efficiency. You can configure your browser to reject cookies, but this may affect some website functions." %}
+                </p>
+            </section>
+
+            <section class="privacy-section">
+                <h2>8. {% trans "Policy Changes" %}</h2>
+                <p>
+                    {% trans "We reserve the right to change this policy at any time. We recommend reviewing this page periodically to learn about any changes. Changes take effect from the moment of publication." %}
+                </p>
+            </section>
+
+            <section class="privacy-section">
+                <h2>9. {% trans "Contact Us" %}</h2>
+                <p>
+                    {% trans "If you have questions or concerns about this policy, or wish to exercise your rights, please contact us." %}
+                </p>
+                <p>
+                    <strong>{% trans "Golden Hands" %}</strong><br>
+                    {% trans "Email:" %} info@voskedzerqer.am<br>
+                    {% trans "Phone:" %} <a href="tel:+374XXXXXXXX" style="color: #FF6B35;">+374 XX XXX XXX</a>
+                </p>
+            </section>
+
+            <div class="privacy-actions">
+                <a href="{% url 'main' %}" class="btn btn-primary">{% trans "Back to Home" %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "About Us" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="about-page">
+    <div class="container">
+        <h1 class="page-title">{% trans "About Us" %}</h1>
+        
+        <div class="about-hero">
+            <div class="hero-content">
+                <h2 class="section-title">{% trans "Golden Hands" %}</h2>
+                <p class="hero-subtitle">{% trans "Our Story" %}</p>
+            </div>
+        </div>
+
+        <section class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "Our Story" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="content-block">
+                <div class="text-content">
+                </div>
+                <div class="image-placeholder">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section alt-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "How It All Started" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="content-block reverse">
+                <div class="image-placeholder">
+                </div>
+                <div class="text-content">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "Our Mission" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="mission-content">
+                <div class="mission-item">
+                    <div class="mission-icon">🎯</div>
+                    <h3>{% trans "Our Goal" %}</h3>
+                    <div class="mission-text">
+                    </div>
+                </div>
+                <div class="mission-item">
+                    <div class="mission-icon">💎</div>
+                    <h3>{% trans "Our Values" %}</h3>
+                    <div class="mission-text">
+                    </div>
+                </div>
+                <div class="mission-item">
+                    <div class="mission-icon">🌟</div>
+                    <h3>{% trans "Our Vision" %}</h3>
+                    <div class="mission-text">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section alt-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "Why Golden Hands?" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <div class="why-us-icon">👨‍🍳</div>
+                    <h3>{% trans "Professional Chefs" %}</h3>
+                    <div class="why-us-text">
+                    </div>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">🥘</div>
+                    <h3>{% trans "Traditional Recipes" %}</h3>
+                    <div class="why-us-text">
+                    </div>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">🌿</div>
+                    <h3>{% trans "Fresh Ingredients" %}</h3>
+                    <div class="why-us-text">
+                    </div>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">❤️</div>
+                    <h3>{% trans "Love and Care" %}</h3>
+                    <div class="why-us-text">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "Our Achievements" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">{% trans "Years in Business" %}</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">{% trans "Satisfied Customers" %}</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">{% trans "Orders" %}</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">{% trans "Dishes in Menu" %}</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section alt-section">
+            <div class="section-header">
+                <h2 class="section-title">{% trans "Our Team" %}</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-item">
+                    <div class="team-photo-placeholder"></div>
+                    <h3 class="team-name">{% trans "Name Surname" %}</h3>
+                    <p class="team-role">{% trans "Position" %}</p>
+                    <div class="team-description">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-cta">
+            <div class="cta-content">
+                <h2>{% trans "Let's Get to Know Each Other" %}</h2>
+                <p>{% trans "Visit us and taste our delicious dishes" %}</p>
+                <div class="cta-buttons">
+                    <a href="{% url 'menu' %}" class="btn btn-primary">{% trans "View Menu" %}</a>
+                    <a href="{% url 'contact' %}" class="btn">{% trans "Order Now" %}</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{% endblock %}
+

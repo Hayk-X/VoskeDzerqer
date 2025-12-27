@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Menu" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="menu-page">
+    <div class="container">
+        <h1 class="page-title">{% trans "Our Menu" %}</h1>
+        
+        <div class="category-filters">
+            <a href="{% url 'menu' %}" class="filter-btn {% if not selected_category %}active{% endif %}">
+                {% trans "All" %}
+            </a>
+            {% for cat_code, cat_name in categories %}
+                <a href="{% url 'menu' %}?category={{ cat_code }}" 
+                   class="filter-btn {% if selected_category == cat_code %}active{% endif %}">
+                    {{ cat_name }}
+                </a>
+            {% endfor %}
+        </div>
+
+        <div class="menu-grid">
+            {% for item in menu_items %}
+                <div class="menu-item-card">
+                    {% if item.image %}
+                        <img src="{{ item.image.url }}" alt="{{ item.get_translated_name }}" class="menu-item-image">
+                    {% else %}
+                        <div class="menu-item-placeholder">🍽️</div>
+                    {% endif %}
+                    <div class="menu-item-info">
+                        <h3 class="menu-item-name">{{ item.get_translated_name }}</h3>
+                        {% if item.get_translated_description %}
+                            <p class="menu-item-description">{{ item.get_translated_description }}</p>
+                        {% endif %}
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">{{ item.price }} {% trans "AMD" %}</span>
+                            <button class="btn-add-to-cart" data-item-id="{{ item.id }}" data-item-name="{{ item.get_translated_name }}" data-item-price="{{ item.price }}">
+                                {% trans "Add to Cart" %}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            {% empty %}
+                <div class="no-items">
+                    <p>{% trans "No items in this category yet" %}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div id="cart-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>{% trans "Your Order" %}</h2>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            <strong>{% trans "Total:" %} <span id="cart-total-price">0</span> {% trans "AMD" %}</strong>
+        </div>
+        <button id="go-to-order" class="btn btn-primary">{% trans "Order" %}</button>
+    </div>
+</div>
+
+<script>
+    const translations = {
+        emptyCart: "{% trans 'Cart is empty' %}",
+        total: "{% trans 'Total:' %}",
+        amd: "{% trans 'AMD' %}",
+        remove: "{% trans 'Remove' %}"
+    };
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/cart-icon.js' %}"></script>
+<script src="{% static 'js/menu.js' %}"></script>
+{% endblock %}
+

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Contact" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="contact-page">
+    <div class="container">
+        <h1 class="page-title">{% trans "Place Order" %}</h1>
+        
+        <form class="contact-form" id="order-form" onsubmit="handleSubmit(event)">
+            <input type="hidden" name="access_key" value="8b7a87ab-81d0-48d3-8b56-670640cd7b14" />
+            
+            <h2>{% trans "To place your order, please fill in your details:" %}</h2>
+            
+            <div class="form-group">
+                <label for="inp_message">{% trans "Your Order:" %}</label>
+                <input
+                    type="text"
+                    id="inp_message"
+                    name="order"
+                    required
+                    placeholder="{% trans 'Example: Classic shawarma x2, Cola x1' %}"
+                    value=""
+                />
+                <small>{% trans "Specify dish names and quantities" %}</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">{% trans "Your Phone Number:" %}</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    pattern="\+?\d{10,15}"
+                    required
+                    placeholder="+374 12 34 56 78"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="address">{% trans "Delivery Address (if required):" %}</label>
+                <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="{% trans 'Street, house, apartment' %}"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="comments">{% trans "Order Comments:" %}</label>
+                <textarea
+                    id="comments"
+                    name="comments"
+                    rows="4"
+                    placeholder="{% trans 'Additional wishes for the order...' %}"
+                ></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">{% trans "Submit Order" %}</button>
+            </div>
+            
+            <div id="form-message" class="form-message"></div>
+        </form>
+    </div>
+</div>
+
+<script>
+    const contactTranslations = {
+        sending: "{% trans 'Order is being sent...' %}",
+        success: "{% trans 'Thank you! Your order has been sent successfully. We will contact you soon.' %}",
+        error: "{% trans 'An error occurred while sending the order. Please try again.' %}"
+    };
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/contact.js' %}"></script>
+{% endblock %}
+

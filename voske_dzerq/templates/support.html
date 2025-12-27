@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Contact Us" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="support-page">
+    <div class="container">
+        <h1 class="page-title">{% trans "Contact Us" %}</h1>
+        
+        <div class="support-content">
+            <div class="support-info">
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>{% trans "Phone Number" %}</h3>
+                    <p><a href="tel:+374XXXXXXXX" class="contact-link">+374 98 709 560</a></p>
+                    <small>{% trans "Mon-Sun: 11:00 - 23:00" %}</small>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">✉️</div>
+                    <h3>{% trans "Email Address" %}</h3>
+                    <p><a href="mailto:info@voskedzerqer.am" class="contact-link">info@voskedzerqer.am</a></p>
+                    <small>{% trans "We respond within 24 hours" %}</small>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>{% trans "Address" %}</h3>
+                    <p>ք.Աբովյան Հատիսի 36</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">⏰</div>
+                    <h3>{% trans "Working Hours" %}</h3>
+                    <p>{% trans "Monday - Sunday" %}</p>
+                    <small>11:00 - 23:00</small>
+                </div>
+            </div>
+            
+            <div class="support-form-wrapper">
+                <form class="support-form" id="support-form" onsubmit="handleSupportSubmit(event)">
+                    <input type="hidden" name="access_key" value="8b7a87ab-81d0-48d3-8b56-670640cd7b14" />
+                    
+                    <h2>{% trans "Send us a message" %}</h2>
+                    
+                    <div class="form-group">
+                        <label for="support_name">{% trans "Your Name:" %}</label>
+                        <input
+                            type="text"
+                            id="support_name"
+                            name="name"
+                            required
+                            placeholder="{% trans 'Your name' %}"
+                        />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="support_phone">{% trans "Phone Number:" %}</label>
+                        <input
+                            type="tel"
+                            id="support_phone"
+                            name="phone"
+                            pattern="\+?\d{10,15}"
+                            required
+                            placeholder="+374 12 34 56 78"
+                        />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="support_email">{% trans "Email Address:" %}</label>
+                        <input
+                            type="email"
+                            id="support_email"
+                            name="email"
+                            required
+                            placeholder="example@email.com"
+                        />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="support_subject">{% trans "Subject:" %}</label>
+                        <select id="support_subject" name="subject" required>
+                            <option value="">{% trans "Select subject" %}</option>
+                            <option value="question">{% trans "Question" %}</option>
+                            <option value="complaint">{% trans "Complaint" %}</option>
+                            <option value="suggestion">{% trans "Suggestion" %}</option>
+                            <option value="partnership">{% trans "Partnership" %}</option>
+                            <option value="other">{% trans "Other" %}</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="support_message">{% trans "Your Message:" %}</label>
+                        <textarea
+                            id="support_message"
+                            name="message"
+                            rows="6"
+                            required
+                            placeholder="{% trans 'Write your message...' %}"
+                        ></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">{% trans "Send Message" %}</button>
+                    </div>
+                    
+                    <div id="support-form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const supportTranslations = {
+        sending: "{% trans 'Message is being sent...' %}",
+        success: "{% trans 'Thank you! Your message has been sent successfully. We will contact you soon.' %}",
+        error: "{% trans 'An error occurred while sending the message. Please try again.' %}"
+    };
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/support.js' %}"></script>
+{% endblock %}
+

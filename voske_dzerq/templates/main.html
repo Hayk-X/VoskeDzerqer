@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Home" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="container">
+        <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+            {% trans "Welcome to" %}<br>{% trans "Golden Hands" %}!
+        </h1>
+        <p style="font-size: 1.5rem; margin-bottom: 2.5rem; color: #ffffff;">
+            {% trans "Delicious and fresh food at affordable prices" %}
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="{% url 'menu' %}" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 2.5rem;">
+                {% trans "View Menu" %}
+            </a>
+            <a href="{% url 'contact' %}" class="btn" style="font-size: 1.2rem; padding: 1rem 2.5rem; background-color: transparent; border: 2px solid #FF6B35; color: #FF6B35;">
+                {% trans "Order Now" %}
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="features-section">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; font-weight: bold;">
+            {% trans "Why Golden Hands?" %}
+        </h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🍽️</div>
+                <h3>{% trans "Fresh Ingredients" %}</h3>
+                <p>{% trans "We cook only with fresh and quality ingredients. We pay special attention to the quality and freshness of products." %}</p>
+            </div>
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
+                <h3>{% trans "Fast Delivery" %}</h3>
+                <p>{% trans "Fast and quality delivery to all districts of the city. We guarantee fast delivery of your order." %}</p>
+            </div>
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
+                <h3>{% trans "Affordable Prices" %}</h3>
+                <p>{% trans "Best price-quality ratio. We offer delicious food at affordable prices." %}</p>
+            </div>
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">👨‍🍳</div>
+                <h3>{% trans "Professional Chefs" %}</h3>
+                <p>{% trans "Our chefs have years of experience and prepare each dish with love and attention." %}</p>
+            </div>
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🌟</div>
+                <h3>{% trans "High Quality" %}</h3>
+                <p>{% trans "We maintain high standards and guarantee excellent taste of every dish." %}</p>
+            </div>
+            <div class="feature-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">📞</div>
+                <h3>{% trans "24/7 Support" %}</h3>
+                <p>{% trans "Our team is always ready to help you and answer your questions. Always with you." %}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section" style="background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%); padding: 5rem 0; border-top: 2px solid #FF6B35; border-bottom: 2px solid #FF6B35; text-align: center;">
+    <div class="container">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: bold;">
+            {% trans "Ready to Order?" %}
+        </h2>
+        <p style="font-size: 1.3rem; color: #ffffff; margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            {% trans "Choose your favorite dishes and we will deliver them to you quickly and safely" %}
+        </p>
+        <a href="{% url 'menu' %}" class="btn btn-primary" style="font-size: 1.3rem; padding: 1.2rem 3rem;">
+            {% trans "View Full Menu" %}
+        </a>
+    </div>
+</div>
+{% endblock %}

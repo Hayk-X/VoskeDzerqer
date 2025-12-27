@@ -1,0 +1,412 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Create Order" %} - {% trans "Golden Hands" %}{% endblock %}
+
+{% block content %}
+<div class="order-form-page">
+    <div class="container">
+        <h1 class="page-title">{% trans "Create Order" %}</h1>
+        
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-success" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        
+        <div class="form-container">
+            <h2>{% trans "Fill in the order form" %}</h2>
+            
+            <form method="post" action="{% url 'order_create' %}">
+                {% csrf_token %}
+                
+                {% if form.errors %}
+                    <div class="alert alert-error">
+                        <strong>{% trans "Please correct the following errors:" %}</strong>
+                        <ul>
+                            {% for field in form %}
+                                {% if field.errors %}
+                                    {% for error in field.errors %}
+                                        <li>{{ field.label }}: {{ error }}</li>
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+                
+                <div class="form-group">
+                    <label for="{{ form.customer_name.id_for_label }}">{{ form.customer_name.label }}</label>
+                    {{ form.customer_name }}
+                    {% if form.customer_name.help_text %}
+                        <small class="form-text">{{ form.customer_name.help_text }}</small>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    <label for="{{ form.phone.id_for_label }}">{{ form.phone.label }}</label>
+                    {{ form.phone }}
+                    {% if form.phone.help_text %}
+                        <small class="form-text">{{ form.phone.help_text }}</small>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    <label for="{{ form.order_details.id_for_label }}">{{ form.order_details.label }}</label>
+                    {{ form.order_details }}
+                    {% if form.order_details.help_text %}
+                        <small class="form-text">{{ form.order_details.help_text }}</small>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    <label for="{{ form.total_price.id_for_label }}">{{ form.total_price.label }}</label>
+                    {{ form.total_price }}
+                    {% if form.total_price.help_text %}
+                        <small class="form-text">{{ form.total_price.help_text }}</small>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">{% trans "Submit Order" %}</button>
+                </div>
+            </form>
+        </div>
+        
+        {% if recent_orders %}
+            <div class="recent-orders">
+                <h2>{% trans "Recent Orders" %}</h2>
+                <div class="orders-list">
+                    {% for order in recent_orders %}
+                        <div class="order-item">
+                            <div class="order-header">
+                                <strong>{{ order.customer_name }}</strong>
+                                <span class="order-date">{{ order.created_at|date:"d.m.Y H:i" }}</span>
+                            </div>
+                            <div class="order-details">
+                                <p><strong>{% trans "Phone:" %}</strong> {{ order.phone }}</p>
+                                <p><strong>{% trans "Order:" %}</strong> {{ order.order_details }}</p>
+                                <p><strong>{% trans "Total:" %}</strong> {{ order.total_price }} {% trans "AMD" %}</p>
+                                {% if order.is_processed %}
+                                    <span class="badge badge-success">{% trans "Processed" %}</span>
+                                {% else %}
+                                    <span class="badge badge-warning">{% trans "In Process" %}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+            <div class="no-orders">
+                <p>{% trans "No orders yet. Be the first!" %}</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.order-form-page {
+    padding: 3rem 0;
+    min-height: calc(100vh - 300px);
+}
+
+.form-container {
+    background: linear-gradient(135deg, #1a0a1a 0%, #0a0a1a 50%, #1a1a0a 100%);
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #FF6B35, #8B5CF6, #3B82F6) 1;
+    box-shadow: 0 8px 30px rgba(255, 107, 53, 0.3), 0 0 40px rgba(139, 92, 246, 0.2);
+    transition: all 0.4s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 15px 50px rgba(255, 107, 53, 0.5), 0 0 60px rgba(139, 92, 246, 0.4);
+    border-image: linear-gradient(135deg, #FFB84D, #FF6B35, #8B5CF6, #3B82F6) 1;
+    transform: translateY(-5px);
+}
+
+.form-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 900;
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 30%, #8B5CF6 60%, #3B82F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
+    letter-spacing: -0.5px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.3), 0 0 20px rgba(139, 92, 246, 0.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a0a1a 100%);
+}
+
+.form-control::placeholder {
+    color: #666;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #cccccc;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 50%, #8B5CF6 100%);
+    background-size: 200% 200%;
+    color: #ffffff;
+    padding: 1.2rem 3rem;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4), 0 0 30px rgba(139, 92, 246, 0.2);
+    animation: gradientShift 3s ease infinite;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #FF6B35 100%);
+    background-size: 200% 200%;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5), 0 0 50px rgba(255, 107, 53, 0.4);
+    animation: gradientShift 1s ease infinite;
+}
+
+.btn-primary:active {
+    transform: translateY(-1px);
+}
+
+.alert {
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 1rem;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.alert-success {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.2) 0%, rgba(40, 167, 69, 0.1) 100%);
+    color: #28a745;
+    border-color: #28a745;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.2);
+}
+
+.alert-error {
+    background: linear-gradient(135deg, rgba(220, 53, 69, 0.2) 0%, rgba(220, 53, 69, 0.1) 100%);
+    color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: 0 4px 15px rgba(220, 53, 69, 0.2);
+}
+
+.alert-error ul {
+    margin: 0.5rem 0 0 1.5rem;
+    list-style-type: disc;
+}
+
+.recent-orders {
+    margin-top: 3rem;
+}
+
+.recent-orders h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 900;
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 30%, #8B5CF6 60%, #3B82F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
+    letter-spacing: -0.5px;
+}
+
+.orders-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.order-item {
+    background: linear-gradient(135deg, #1a0a1a 0%, #0a0a1a 50%, #1a1a0a 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #FF6B35, #8B5CF6) 1;
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.2), 0 0 30px rgba(139, 92, 246, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.order-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(255, 107, 53, 0.4), 0 0 50px rgba(139, 92, 246, 0.3);
+    border-image: linear-gradient(135deg, #FFB84D, #FF6B35, #8B5CF6, #3B82F6) 1;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #333;
+}
+
+.order-header strong {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.order-date {
+    color: #cccccc;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+.order-details {
+    color: #ffffff;
+}
+
+.order-details p {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+}
+
+.order-details strong {
+    font-weight: 700;
+    background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.badge-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    box-shadow: 0 2px 10px rgba(40, 167, 69, 0.3);
+}
+
+.badge-warning {
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+    color: #000;
+    box-shadow: 0 2px 10px rgba(255, 193, 7, 0.3);
+}
+
+.no-orders {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+    border-radius: 15px;
+    border: 2px dashed #FF8C00;
+    color: #cccccc;
+    font-size: 1.2rem;
+}
+
+.no-orders p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #FF6B35 0%, #FFB84D 50%, #8B5CF6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media (max-width: 767px) {
+    .form-container {
+        padding: 2rem 1.5rem;
+    }
+    
+    .form-container h2,
+    .recent-orders h2 {
+        font-size: 1.5rem;
+    }
+    
+    .order-item {
+        padding: 1.5rem;
+    }
+    
+    .order-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+</style>
+{% endblock %}
+

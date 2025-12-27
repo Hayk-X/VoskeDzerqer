@@ -1,0 +1,570 @@
+# English translations
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "Golden Hands"
+msgstr "Golden Hands"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Delivery"
+msgstr "Delivery"
+
+msgid "Subscribe to our newsletter"
+msgstr "Subscribe to our newsletter"
+
+msgid "Subscribe"
+msgstr "Subscribe"
+
+msgid "ABOUT US"
+msgstr "ABOUT US"
+
+msgid "CONTACT US"
+msgstr "CONTACT US"
+
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+msgid "Welcome to"
+msgstr "Welcome to"
+
+msgid "Delicious and fresh food at affordable prices"
+msgstr "Delicious and fresh food at affordable prices"
+
+msgid "View Menu"
+msgstr "View Menu"
+
+msgid "Order Now"
+msgstr "Order Now"
+
+msgid "Why Golden Hands?"
+msgstr "Why Golden Hands?"
+
+msgid "Fresh Ingredients"
+msgstr "Fresh Ingredients"
+
+msgid "We cook only with fresh and quality ingredients. We pay special attention to the quality and freshness of products."
+msgstr "We cook only with fresh and quality ingredients. We pay special attention to the quality and freshness of products."
+
+msgid "Fast Delivery"
+msgstr "Fast Delivery"
+
+msgid "Fast and quality delivery to all districts of the city. We guarantee fast delivery of your order."
+msgstr "Fast and quality delivery to all districts of the city. We guarantee fast delivery of your order."
+
+msgid "Affordable Prices"
+msgstr "Affordable Prices"
+
+msgid "Best price-quality ratio. We offer delicious food at affordable prices."
+msgstr "Best price-quality ratio. We offer delicious food at affordable prices."
+
+msgid "Professional Chefs"
+msgstr "Professional Chefs"
+
+msgid "Our chefs have years of experience and prepare each dish with love and attention."
+msgstr "Our chefs have years of experience and prepare each dish with love and attention."
+
+msgid "High Quality"
+msgstr "High Quality"
+
+msgid "We maintain high standards and guarantee excellent taste of every dish."
+msgstr "We maintain high standards and guarantee excellent taste of every dish."
+
+msgid "24/7 Support"
+msgstr "24/7 Support"
+
+msgid "Our team is always ready to help you and answer your questions. Always with you."
+msgstr "Our team is always ready to help you and answer your questions. Always with you."
+
+msgid "Ready to Order?"
+msgstr "Ready to Order?"
+
+msgid "Choose your favorite dishes and we will deliver them to you quickly and safely"
+msgstr "Choose your favorite dishes and we will deliver them to you quickly and safely"
+
+msgid "View Full Menu"
+msgstr "View Full Menu"
+
+msgid "Create Order"
+msgstr "Create Order"
+
+msgid "Fill in the order form"
+msgstr "Fill in the order form"
+
+msgid "Please correct the following errors:"
+msgstr "Please correct the following errors:"
+
+msgid "Submit Order"
+msgstr "Submit Order"
+
+msgid "Recent Orders"
+msgstr "Recent Orders"
+
+msgid "Phone:"
+msgstr "Phone:"
+
+msgid "Order:"
+msgstr "Order:"
+
+msgid "Total:"
+msgstr "Total:"
+
+msgid "Processed"
+msgstr "Processed"
+
+msgid "In Process"
+msgstr "In Process"
+
+msgid "No orders yet. Be the first!"
+msgstr "No orders yet. Be the first!"
+
+msgid "Your Name"
+msgstr "Your Name"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Order Details"
+msgstr "Order Details"
+
+msgid "Total Price"
+msgstr "Total Price"
+
+msgid "Enter your name"
+msgstr "Enter your name"
+
+msgid "Describe your order (e.g.: Classic shawarma x2, Cola x1)"
+msgstr "Describe your order (e.g.: Classic shawarma x2, Cola x1)"
+
+msgid "Phone number must contain at least 10 digits"
+msgstr "Phone number must contain at least 10 digits"
+
+msgid "Price cannot be negative"
+msgstr "Price cannot be negative"
+
+msgid "Order successfully created! Thank you, %(name)s!"
+msgstr "Order successfully created! Thank you, %(name)s!"
+
+msgid "Our Menu"
+msgstr "Our Menu"
+
+msgid "All"
+msgstr "All"
+
+msgid "AMD"
+msgstr "AMD"
+
+msgid "Add to Cart"
+msgstr "Add to Cart"
+
+msgid "No items in this category yet"
+msgstr "No items in this category yet"
+
+msgid "Your Order"
+msgstr "Your Order"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Cart is empty"
+msgstr "Cart is empty"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Place Order"
+msgstr "Place Order"
+
+msgid "To place your order, please fill in your details:"
+msgstr "To place your order, please fill in your details:"
+
+msgid "Your Order:"
+msgstr "Your Order:"
+
+msgid "Example: Classic shawarma x2, Cola x1"
+msgstr "Example: Classic shawarma x2, Cola x1"
+
+msgid "Specify dish names and quantities"
+msgstr "Specify dish names and quantities"
+
+msgid "Your Phone Number:"
+msgstr "Your Phone Number:"
+
+msgid "Delivery Address (if required):"
+msgstr "Delivery Address (if required):"
+
+msgid "Street, house, apartment"
+msgstr "Street, house, apartment"
+
+msgid "Order Comments:"
+msgstr "Order Comments:"
+
+msgid "Additional wishes for the order..."
+msgstr "Additional wishes for the order..."
+
+msgid "Order is being sent..."
+msgstr "Order is being sent..."
+
+msgid "Thank you! Your order has been sent successfully. We will contact you soon."
+msgstr "Thank you! Your order has been sent successfully. We will contact you soon."
+
+msgid "An error occurred while sending the order. Please try again."
+msgstr "An error occurred while sending the order. Please try again."
+
+msgid "About Us"
+msgstr "About Us"
+
+msgid "Our Story"
+msgstr "Our Story"
+
+msgid "How It All Started"
+msgstr "How It All Started"
+
+msgid "Our Mission"
+msgstr "Our Mission"
+
+msgid "Our Goal"
+msgstr "Our Goal"
+
+msgid "Our Values"
+msgstr "Our Values"
+
+msgid "Our Vision"
+msgstr "Our Vision"
+
+msgid "Traditional Recipes"
+msgstr "Traditional Recipes"
+
+msgid "Love and Care"
+msgstr "Love and Care"
+
+msgid "Our Achievements"
+msgstr "Our Achievements"
+
+msgid "Years in Business"
+msgstr "Years in Business"
+
+msgid "Satisfied Customers"
+msgstr "Satisfied Customers"
+
+msgid "Dishes in Menu"
+msgstr "Dishes in Menu"
+
+msgid "Our Team"
+msgstr "Our Team"
+
+msgid "Name Surname"
+msgstr "Name Surname"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Let's Get to Know Each Other"
+msgstr "Let's Get to Know Each Other"
+
+msgid "Visit us and taste our delicious dishes"
+msgstr "Visit us and taste our delicious dishes"
+
+msgid "Phone Number"
+msgstr "Phone Number"
+
+msgid "Mon-Sun: 11:00 - 23:00"
+msgstr "Mon-Sun: 11:00 - 23:00"
+
+msgid "Email Address"
+msgstr "Email Address"
+
+msgid "We respond within 24 hours"
+msgstr "We respond within 24 hours"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "Working Hours"
+msgstr "Working Hours"
+
+msgid "Monday - Sunday"
+msgstr "Monday - Sunday"
+
+msgid "Send us a message"
+msgstr "Send us a message"
+
+msgid "Your Name:"
+msgstr "Your Name:"
+
+msgid "Your name"
+msgstr "Your name"
+
+msgid "Phone Number:"
+msgstr "Phone Number:"
+
+msgid "Email Address:"
+msgstr "Email Address:"
+
+msgid "Subject:"
+msgstr "Subject:"
+
+msgid "Select subject"
+msgstr "Select subject"
+
+msgid "Question"
+msgstr "Question"
+
+msgid "Complaint"
+msgstr "Complaint"
+
+msgid "Suggestion"
+msgstr "Suggestion"
+
+msgid "Partnership"
+msgstr "Partnership"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Your Message:"
+msgstr "Your Message:"
+
+msgid "Write your message..."
+msgstr "Write your message..."
+
+msgid "Send Message"
+msgstr "Send Message"
+
+msgid "Message is being sent..."
+msgstr "Message is being sent..."
+
+msgid "Thank you! Your message has been sent successfully. We will contact you soon."
+msgstr "Thank you! Your message has been sent successfully. We will contact you soon."
+
+msgid "An error occurred while sending the message. Please try again."
+msgstr "An error occurred while sending the message. Please try again."
+
+msgid "Last updated:"
+msgstr "Last updated:"
+
+msgid "General Provisions"
+msgstr "General Provisions"
+
+msgid "Golden Hands restaurant is committed to protecting the privacy of our customers' personal data. This policy describes how we collect, use, store and disclose your personal data when using our website and services."
+msgstr "Golden Hands restaurant is committed to protecting the privacy of our customers' personal data. This policy describes how we collect, use, store and disclose your personal data when using our website and services."
+
+msgid "Data Collected"
+msgstr "Data Collected"
+
+msgid "We may collect the following information:"
+msgstr "We may collect the following information:"
+
+msgid "Personal Information:"
+msgstr "Personal Information:"
+
+msgid "Phone number, email address"
+msgstr "Phone number, email address"
+
+msgid "Delivery Data:"
+msgstr "Delivery Data:"
+
+msgid "Delivery address, delivery notes"
+msgstr "Delivery address, delivery notes"
+
+msgid "Order Information:"
+msgstr "Order Information:"
+
+msgid "Ordered products, quantity, price"
+msgstr "Ordered products, quantity, price"
+
+msgid "Technical Data:"
+msgstr "Technical Data:"
+
+msgid "IP address, browser type, usage data"
+msgstr "IP address, browser type, usage data"
+
+msgid "Data Usage"
+msgstr "Data Usage"
+
+msgid "We use the collected data for the following purposes:"
+msgstr "We use the collected data for the following purposes:"
+
+msgid "Order processing and delivery"
+msgstr "Order processing and delivery"
+
+msgid "Customer communication"
+msgstr "Customer communication"
+
+msgid "Service improvement"
+msgstr "Service improvement"
+
+msgid "Legal compliance"
+msgstr "Legal compliance"
+
+msgid "Marketing materials (only with your consent)"
+msgstr "Marketing materials (only with your consent)"
+
+msgid "Data Protection"
+msgstr "Data Protection"
+
+msgid "We apply various levels of security measures to protect your personal data from unauthorized access, use or disclosure. However, it is understood that data transmission over the Internet is not 100% secure."
+msgstr "We apply various levels of security measures to protect your personal data from unauthorized access, use or disclosure. However, it is understood that data transmission over the Internet is not 100% secure."
+
+msgid "Data Sharing"
+msgstr "Data Sharing"
+
+msgid "We do not share your personal data with third parties except when necessary to provide services (e.g., delivery services) or as required by law."
+msgstr "We do not share your personal data with third parties except when necessary to provide services (e.g., delivery services) or as required by law."
+
+msgid "Customer Rights"
+msgstr "Customer Rights"
+
+msgid "You have the following rights:"
+msgstr "You have the following rights:"
+
+msgid "Know what data we collect about you"
+msgstr "Know what data we collect about you"
+
+msgid "Request correction or deletion of your personal data"
+msgstr "Request correction or deletion of your personal data"
+
+msgid "Refuse collection of certain data"
+msgstr "Refuse collection of certain data"
+
+msgid "Request export of your data"
+msgstr "Request export of your data"
+
+msgid "Refuse to receive marketing materials"
+msgstr "Refuse to receive marketing materials"
+
+msgid "Our website uses cookies to improve your experience and increase service efficiency. You can configure your browser to reject cookies, but this may affect some website functions."
+msgstr "Our website uses cookies to improve your experience and increase service efficiency. You can configure your browser to reject cookies, but this may affect some website functions."
+
+msgid "Policy Changes"
+msgstr "Policy Changes"
+
+msgid "We reserve the right to change this policy at any time. We recommend reviewing this page periodically to learn about any changes. Changes take effect from the moment of publication."
+msgstr "We reserve the right to change this policy at any time. We recommend reviewing this page periodically to learn about any changes. Changes take effect from the moment of publication."
+
+msgid "If you have questions or concerns about this policy, or wish to exercise your rights, please contact us."
+msgstr "If you have questions or concerns about this policy, or wish to exercise your rights, please contact us."
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Phone:"
+msgstr "Phone:"
+
+msgid "Back to Home"
+msgstr "Back to Home"
+
+msgid "Please enter email address"
+msgstr "Please enter email address"
+
+msgid "Please enter a valid email address"
+msgstr "Please enter a valid email address"
+
+msgid "Thank you for subscribing!"
+msgstr "Thank you for subscribing!"
+
+msgid "Shawarma"
+msgstr "Shawarma"
+
+msgid "Grilled"
+msgstr "Grilled"
+
+msgid "Lahmajo"
+msgstr "Lahmajo"
+
+msgid "Falafel"
+msgstr "Falafel"
+
+msgid "Soups"
+msgstr "Soups"
+
+msgid "Drinks"
+msgstr "Drinks"
+
+msgid "Snacks"
+msgstr "Snacks"
+
+msgid "Name (Armenian)"
+msgstr "Name (Armenian)"
+
+msgid "Name (Russian)"
+msgstr "Name (Russian)"
+
+msgid "Name (English)"
+msgstr "Name (English)"
+
+msgid "Description (Armenian)"
+msgstr "Description (Armenian)"
+
+msgid "Description (Russian)"
+msgstr "Description (Russian)"
+
+msgid "Description (English)"
+msgstr "Description (English)"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Available"
+msgstr "Available"
+
+msgid "Menu Item"
+msgstr "Menu Item"
+
+msgid "Menu Items"
+msgstr "Menu Items"
+
+msgid "Customer Name"
+msgstr "Customer Name"
+
+msgid "Created At"
+msgstr "Created At"
+
+msgid "Processed"
+msgstr "Processed"
+
+msgid "User"
+msgstr "User"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Orders"
+msgstr "Orders"
+
+msgid "Order from %(name)s - %(date)s"
+msgstr "Order from %(name)s - %(date)s"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "TikTok"
+msgstr "TikTok"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Enter your name"
+msgstr "Enter your name"
+

@@ -22,9 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('django-insecure-_991_6gezjk4*x2mk-3exrqhpt--8+e&e10r3k2$-f16_4h+v2')
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["voskedzerqer001.onrender.com"]
+
 
 
 # Application definition
